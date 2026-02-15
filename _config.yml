@@ -2,14 +2,18 @@ title: מחקרי השקעות
 description: סקירות עומק, תזות וניתוחי שוק
 theme: jekyll-theme-midnight
 
+# כתובת האתר
+url: "https://eladyesh.github.io"
+baseurl: "/financial_site"   # ❗️שנה לשם הריפו האמיתי
+
+# Markdown כמו GitHub README
 markdown: kramdown
 kramdown:
   input: GFM
 
-# ביטול כל אזכור ל-GitHub
+# ביטול מוחלט של אזכור GitHub
 github:
   is_project_page: false
   is_user_page: false
 
 show_downloads: false
-
