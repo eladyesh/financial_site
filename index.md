@@ -1,18 +1,18 @@
 ---
-title: Home
+title: בית
 ---
 
-# Investment Research
+# מחקרי השקעות
 
-Long-form notes, theses, and market analysis.
+סקירות עומק, תזות השקעה וניתוחי שוק לטווח בינוני וארוך.
 
-## Latest posts
+## פרסומים אחרונים
+
 <ul>
-{% raw %}{% for post in site.posts %}
+{% for post in site.posts %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
-    <small>— {{ post.date | date: "%Y-%m-%d" }}</small>
+    <small> — {{ post.date | date: "%d-%m-%Y" }}</small>
   </li>
-{% endfor %}{% endraw %}
+{% endfor %}
 </ul>
-
