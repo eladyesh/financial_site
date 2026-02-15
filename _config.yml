@@ -1,12 +1,7 @@
-title: Investment Notes
-description: Research, theses, and market notes
-theme: jekyll-theme-hacker
+title: מחקרי השקעות
+description: סקירות עומק, תזות וניתוחי שוק
+theme: jekyll-theme-minimal
 
 markdown: kramdown
-
-plugins:
-  - jekyll-feed
-
-collections:
-  posts:
-    output: true
+kramdown:
+  input: GFM
